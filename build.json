@@ -1,0 +1,22 @@
+{
+    "core": {
+        "download": {
+            "version": "4.9.4",
+            "locale": "en_US"
+        }
+    },
+    "plugins": {
+        "advanced-custom-fields": {
+            "version": "4.4.12"
+        },
+        "timber-library": {
+            "version": "1.7.0"
+        },
+        "wordpress-popular-posts": {
+            "version": "4.0.13"
+        },
+        "wordpress-seo": {
+            "version": "6.3.1"
+        }
+    }
+}

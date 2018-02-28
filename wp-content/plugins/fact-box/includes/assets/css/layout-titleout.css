@@ -1,0 +1,58 @@
+.fact-contentbox {
+  padding:0 20px 20px;
+  position:relative;
+  background-color: #f1f3f4;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom:26px;
+}
+
+.fact-contentbox>:last-child{
+  margin-bottom:0;
+}
+
+@media (min-width: 581px){
+  .fact-contentbox {
+    clear:right;
+    float:right;
+    margin-left:21px;
+    margin-bottom:26px;
+    width: 220px;
+  }
+}
+@media (min-width: 1019px) {
+  .fact-contentbox{
+    width: 300px;
+  }
+}
+
+.fact-contentbox .title {
+
+  margin: 0 -20px 10px;
+  line-height: 1;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  position: relative;
+  background-color: white;
+}
+.fact-contentbox .title + * {
+  margin-top: 0;
+}
+
+.fact-contentbox .title span {
+  padding: 8px 20px;
+  color: white;
+  background-color: #042c51;
+  display: inline-block;
+}
+
+.fact-contentbox .title:before {
+  content: "";
+    border-bottom: 3px solid #042c51;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    margin-top: 5px;
+}
